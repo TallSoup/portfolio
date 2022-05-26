@@ -2,7 +2,7 @@ const About = () => {
   return (
     <div
       id='about'
-      className='container grid w-full h-screen px-3 m-auto max-w-4xl place-content-center'
+      className='container grid w-full h-screen pt-9 sm:pt-0 px-3 pb-9 m-auto max-w-4xl place-content-center'
     >
       <h2 className='text-2xl pb-3 pt-9 sm:pt-0'>Hello!</h2>
       <h1 className='text-7xl font-bold'>I'm Andrew.</h1>

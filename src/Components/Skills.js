@@ -25,7 +25,7 @@ const Skills = () => {
       id='skills'
       className='container grid w-full h-full py-9 m-auto max-w-4xl place-content-center'
     >
-      <h1 className='text-3xl sm:text-4xl pt-9 pb-5 font-bold'>Skills</h1>
+      <h1 className='text-3xl sm:text-4xl sm:pt-9 pb-5 font-bold'>Skills</h1>
 
       <div className='flex flex-wrap justify-evenly gap-5 pb-9'>
         {skills.map((skill, i) => {
