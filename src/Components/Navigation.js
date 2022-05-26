@@ -38,7 +38,7 @@ const Navigation = () => {
           </a>
 
           <a
-            href='https://drive.google.com/file/d/1BSPbSc42Y6wmcaVlm_d9QnPrBF1la91F/view?usp=sharing'
+            href='https://drive.google.com/file/d/1OUSPHtaGkPOhGBypdrkbBHMMd1FDO25y/view?usp=sharing'
             target='_blank'
             rel='noreferrer noopener'
           >
