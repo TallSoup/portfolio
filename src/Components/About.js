@@ -7,16 +7,18 @@ const About = () => {
       <h2 className='text-2xl pb-3'>Hello!</h2>
       <h1 className='text-7xl font-bold'>I'm Andrew.</h1>
       <h2 className='text-2xl px-7 py-3'>
-        I build, break and make software better.
+        I build, break and make things better.
       </h2>
       <p className='text-justify py-3'>
-        I'm a self-taught software developer currently focused on landing my
-        first role. Before making a move to tech, I spent seven years climbing
-        the ladder in Automotive Parts Sales at the local Chrysler dealership. I
-        spent the last 4 years in Management, where I excelled in communicating
-        highly technical concepts to non-technical folk, people management,
-        process improvement, relationship building, and delivering results that
-        exceeded expectations.
+        I'm a self-taught{' '}
+        <span className='font-bold underline'>Software Developer</span>{' '}
+        currently focused on landing my first role. Before making a move to
+        tech, I spent seven years climbing the ladder in Automotive Parts Sales
+        at the local Chrysler dealership. I spent the last 4 years in
+        Management, where I excelled in communicating highly technical concepts
+        to non-technical folk, people management, process improvement,
+        relationship building, and delivering results that exceeded
+        expectations.
       </p>
 
       <div>
