@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <div
       id='projects'
-      className='container grid w-full h-full px-3 py-5 m-auto max-w-4xl place-content-center'
+      className='container grid w-full h-full px-3 pt-5 pb-9 sm:pb-2 m-auto max-w-4xl place-content-center'
     >
       <h1 className='text-3xl sm:text-4xl pb-5 sm:pt-9 font-bold'>
         Recent Projects
