@@ -1,0 +1,57 @@
+const projects = [
+  {
+    name: 'Auction App',
+    desc: 'A solution for independent auctioneers who create and run their own online auctions. Authentication (local and Google), bid, add, edit and delete items. Countdown with soft close.',
+    tech: [
+      'JavaScript ES6+',
+      'JSX',
+      'React',
+      'Node',
+      'Express',
+      'MongoDB',
+      'Bootstrap',
+      'Google Cloud Platform',
+      'Heroku',
+    ],
+    screenshot: '../screenshots/Auction App Screenshot.png',
+    stack: 'Full Stack',
+    github: 'https://github.com/TallSoup/AuctionApp',
+    demo: 'https://react-auction-app.herokuapp.com/',
+  },
+  {
+    name: "What's For Dinner?",
+    desc: '1 Day React Challenge: built and deployed in 10 hours. Input what you have in your fridge/pantry/cold cellar, and it will return a dozen recipes that use those items, and indicate additional ingredients you need. Then click thru for the detailed recipe. Also recreated with class based components (link in demo)',
+    tech: [
+      'JavaScript ES6+',
+      'JSX',
+      'React',
+      'Bootstrap',
+      'Netlify',
+      'Spoontacular API',
+    ],
+    screenshot: "../screenshots/What's For Dinner Screenshot.png",
+    stack: 'React Front End',
+    github: 'https://github.com/TallSoup/Whats-For-Dinner',
+    demo: 'https://effulgent-bunny-bbabbb.netlify.app/',
+  },
+  {
+    name: 'Discord ResponderBot',
+    desc: 'A deployed Discord bot that will tell dad jokes, an inspirational quote, or just say hello. Click DEMO to join my private Discord Server to test it out!',
+    tech: [
+      'Python',
+      'Discord.py',
+      'Coinbase API',
+      'ZenQuotes API',
+      'icanhazdadjoke API',
+      'Kanye REST API',
+      'Complimentr API',
+      'Heroku',
+    ],
+    screenshot: '../screenshots/ResponderBot Screenshot.png',
+    stack: 'Python',
+    github: 'https://github.com/TallSoup/DiscordResponderBot',
+    demo: 'https://discord.com/invite/Kk3r9kfmnp',
+  },
+];
+
+export default projects;
