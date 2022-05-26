@@ -12,9 +12,9 @@ const About = () => {
       <p className='text-justify py-3'>
         I'm a self-taught{' '}
         <span className='font-bold underline'>Software Developer</span>{' '}
-        currently focused on landing my first role. Before making a move to
-        tech, I spent seven years climbing the ladder in Automotive Parts Sales
-        at the local Chrysler dealership. I spent the last 4 years in
+        currently focused on landing an entry-level role. Before making a move
+        to tech, I spent seven years climbing the ladder in Automotive Parts
+        Sales at the local Chrysler dealership. I spent the last 4 years in
         Management, where I excelled in communicating highly technical concepts
         to non-technical folk, people management, process improvement,
         relationship building, and delivering results that exceeded
