@@ -23,7 +23,7 @@ const Skills = () => {
   return (
     <div
       id='skills'
-      className='container grid w-full h-screen px-3 m-auto max-w-4xl place-content-center'
+      className='container grid w-full h-full px-3 m-auto max-w-4xl place-content-center'
     >
       <h1 className='text-3xl sm:text-4xl pt-9 pb-5 font-bold'>Skills</h1>
 
