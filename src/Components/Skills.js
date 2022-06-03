@@ -30,12 +30,14 @@ const Skills = () => {
       <div className='flex flex-wrap justify-evenly gap-5 pb-9'>
         {skills.map((skill, i) => {
           return (
-            <button
-              key={i}
-              className='text-white border border-green-500 transition ease-in-out delay-150 hover:bg-green-500 rounded-full py-1 px-4  mt-3'
-            >
-              {skill}
-            </button>
+            <>
+              <span
+                key={i}
+                className='text-white border border-green-500 transition ease-in-out delay-150 hover:bg-green-500 select-none rounded-full py-1 px-4  mt-3'
+              >
+                {skill}
+              </span>
+            </>
           );
         })}
       </div>
@@ -45,12 +47,14 @@ const Skills = () => {
       <div className='flex flex-wrap justify-evenly gap-5'>
         {exploring.map((skill, i) => {
           return (
-            <button
-              key={i}
-              className='text-white border border-green-500 transition ease-in-out delay-150 hover:bg-green-500 rounded-full py-1 px-4  mt-3'
-            >
-              {skill}
-            </button>
+            <>
+              <span
+                key={i}
+                className='text-white border border-green-500 transition ease-in-out delay-150 hover:bg-green-500 select-none rounded-full py-1 px-4  mt-3'
+              >
+                {skill}
+              </span>
+            </>
           );
         })}
       </div>
