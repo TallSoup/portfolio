@@ -32,7 +32,7 @@ const Project = (props) => {
               return (
                 <button
                   key={i}
-                  className='text-white border border-green-500 hover:bg-green-500 rounded-full py-1 px-4  m-2'
+                  className='text-white border border-green-500 transition ease-in-out delay-150 hover:bg-green-500 rounded-full py-1 px-4  m-2'
                 >
                   {skill}
                 </button>

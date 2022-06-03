@@ -1,20 +1,25 @@
-const Navigation = () => {
+const linkClasses =
+  'transition ease-in-out delay-150 hover:text-green-500 sm:p-3 -rotate-45 sm:rotate-0 text-sm backdrop-blur-md p-1';
+const iconClasses =
+  'transition ease-in-out delay-150 hover:text-green-500 px-1 sm:p-3 py-3';
+
+const Navigation = (props) => {
   return (
     <nav className='fixed sm:sticky inset-x-0 bottom-0 sm:top-0 bg-black'>
       <div className='flex justify-between'>
         <div className=''>
           <a href='https://github.com/TallSoup'>
-            <button className='hover:text-green-500 px-1 py-3 sm:p-3'>
+            <button className={iconClasses}>
               <i className='fa-brands fa-github fa-2xl'></i>
             </button>
           </a>
           <a href='https://www.linkedin.com/in/andrewtclarkson/'>
-            <button className='hover:text-green-500 px-1 sm:p-3'>
+            <button className={iconClasses}>
               <i className='fa-brands fa-linkedin fa-2xl'></i>
             </button>
           </a>
           <a href='mailto:andrewtclarkson@gmail.com'>
-            <button className='hover:text-green-500 px-1 sm:p-3'>
+            <button className={iconClasses}>
               <i className='fa-solid fa-envelope fa-2xl'></i>
             </button>
           </a>
@@ -22,29 +27,17 @@ const Navigation = () => {
 
         <div className='pr-3'>
           <a href='#about'>
-            <button className='hover:text-green-500 sm:p-3 -rotate-45 sm:rotate-0 text-sm backdrop-blur-md p-1'>
-              About
-            </button>
+            <button className={linkClasses}>About</button>
           </a>
           <a href='#skills'>
-            <button className='hover:text-green-500 sm:p-3 -rotate-45 sm:rotate-0 text-sm backdrop-blur-md p-1'>
-              Skills
-            </button>
+            <button className={linkClasses}>Skills</button>
           </a>
           <a href='#projects'>
-            <button className='hover:text-green-500 sm:p-3 -rotate-45 sm:rotate-0 text-sm backdrop-blur-md p-1'>
-              Projects
-            </button>
+            <button className={linkClasses}>Projects</button>
           </a>
 
-          <a
-            href='https://drive.google.com/file/d/1OUSPHtaGkPOhGBypdrkbBHMMd1FDO25y/view?usp=sharing'
-            target='_blank'
-            rel='noreferrer noopener'
-          >
-            <button className='hover:text-green-500 sm:p-3 -rotate-45 sm:rotate-0 text-sm backdrop-blur-md p-1'>
-              Resume
-            </button>
+          <a href={props.url} target='_blank' rel='noreferrer noopener'>
+            <button className={linkClasses}>Resume</button>
           </a>
         </div>
         <div className='hidden'>

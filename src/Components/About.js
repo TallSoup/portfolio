@@ -1,4 +1,4 @@
-const About = () => {
+const About = (props) => {
   return (
     <div
       id='about'
@@ -22,12 +22,8 @@ const About = () => {
       </p>
 
       <div>
-        <a
-          href='https://drive.google.com/file/d/1OUSPHtaGkPOhGBypdrkbBHMMd1FDO25y/view?usp=sharing'
-          target='_blank'
-          rel='noreferrer noopener'
-        >
-          <button className='text-white hover:bg-green-600 rounded border border-green-500 px-4 py-2 m-2'>
+        <a href={props.url} target='_blank' rel='noreferrer noopener'>
+          <button className='text-white transition ease-in-out delay-150 hover:bg-green-600 rounded border border-green-500 px-4 py-2 m-2'>
             Resume
           </button>
         </a>
@@ -36,7 +32,7 @@ const About = () => {
           target='_blank'
           rel='noreferrer noopener'
         >
-          <button className='text-white hover:bg-green-600 rounded border border-green-500 px-4 py-2 m-2'>
+          <button className='text-white transition ease-in-out delay-150 hover:bg-green-600 rounded border border-green-500 px-4 py-2 m-2'>
             Contact Me
           </button>
         </a>
