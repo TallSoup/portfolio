@@ -20,6 +20,7 @@ const Skills = () => {
     'APIs',
   ];
   const exploring = ['Tailwind CSS', 'Jest', 'Cypress', 'AWS', 'Rust', 'web3'];
+
   return (
     <div
       id='skills'

@@ -28,16 +28,18 @@ const Project = (props) => {
             </div>
 
             <p className='my-2 text-white'>{props.project.desc}</p>
-            {props.project.tech.map((skill, i) => {
-              return (
-                <button
-                  key={i}
-                  className='text-white border border-green-500 transition ease-in-out delay-150 hover:bg-green-500 rounded-full py-1 px-4  m-2'
-                >
-                  {skill}
-                </button>
-              );
-            })}
+            <div className='flex flex-wrap justify-evenly '>
+              {props.project.tech.map((skill, i) => {
+                return (
+                  <span
+                    key={i}
+                    className='text-white border border-green-500 transition ease-in-out delay-150 hover:bg-green-500 select-none rounded-full py-1 px-4 m-2'
+                  >
+                    {skill}
+                  </span>
+                );
+              })}
+            </div>
           </div>
         </div>
       </div>
