@@ -5,7 +5,7 @@ const Project = (props) => {
         <div className='md:flex'>
           <div className='md:shrink-0'>
             <img
-              className='h-48 w-full object-cover object-top md:h-full md:w-48'
+              className='h-48 w-full object-cover object-left-top md:h-full md:w-48'
               src={props.project.screenshot}
               alt='app screenshot'
             />
