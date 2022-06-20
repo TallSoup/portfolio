@@ -11,7 +11,11 @@ const Skills = () => {
     'GitHub',
     'Heroku',
     'Netlify',
+    'Cypress',
+    'React Texting Library',
+    'Jest',
     'Bootstrap 5',
+    'Tailwind CSS',
     'Python',
     'Flask',
     'Jinja',
@@ -19,7 +23,7 @@ const Skills = () => {
     'SQLite',
     'APIs',
   ];
-  const exploring = ['Tailwind CSS', 'Jest', 'Cypress', 'AWS', 'Rust', 'web3'];
+  const exploring = ['Ruby on Rails', 'AWS', 'Rust', 'web3'];
 
   return (
     <div
