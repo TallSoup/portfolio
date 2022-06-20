@@ -5,7 +5,7 @@ import Projects from './Components/Projects';
 import Skills from './Components/Skills';
 
 const RESUME_URL =
-  'https://drive.google.com/file/d/1zbOetwEZC0hNA0K3m_6LZeuliaO4vlYV/view?usp=sharing';
+  'https://drive.google.com/file/d/1aY9-TnAROPXy6i-AWQkjv-gHKkGbWF7A/view?usp=sharing';
 
 function App() {
   return (
